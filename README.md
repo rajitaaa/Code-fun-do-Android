@@ -1,6 +1,7 @@
 # Code-fun-do-Android
 
-Classistant Applications
+Classistant Application
+
 Made for Microsoft Code.fun.do
 
 Members: Nihar Chitnis, Rajita Ghosal
