@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rajita.codefundo.Start">
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:background="@color/colorPrimary"
+        app:srcCompat="@drawable/home" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_marginTop="111dp"
+        android:width="1.5in"
+        android:clickable="true"
+        android:text="Face Detection"
+        android:textColor="@android:color/black"
+        android:textColorHighlight="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textColorLink="@android:color/black"
+        android:textSize="0.13in"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:fontFamily="serif" />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_alignStart="@+id/button1"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="58dp"
+        android:width="1.5in"
+        android:text="Make Notes"
+        android:textColor="@android:color/black"
+        android:textColorHighlight="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textColorLink="@android:color/black"
+        android:textSize="0.13in"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:fontFamily="serif" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="92dp"
+        android:fontFamily="casual"
+        android:text="CLASSISTANT"
+        android:textColor="@color/white"
+        android:textSize="0.3in"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="37dp"
+        android:width="1.5in"
+        android:text="View Marks"
+        android:textColor="@android:color/black"
+        android:textColorHighlight="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textColorLink="@android:color/black"
+        android:textSize="0.13in"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:fontFamily="serif" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3"
+        android:layout_below="@+id/button3"
+        android:layout_marginTop="19dp"
+        android:width="1.5in"
+        android:text="Camera"
+        android:textColor="@android:color/black"
+        android:textColorHighlight="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textColorLink="@android:color/black"
+        android:textSize="0.13in"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:fontFamily="serif" />
+
+</RelativeLayout>

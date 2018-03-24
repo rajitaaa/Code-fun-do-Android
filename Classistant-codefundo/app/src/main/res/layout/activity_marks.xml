@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rajita.codefundo.Marks">
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView4"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_gravity="bottom|end"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="11dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:text="Notifications"
+        android:textSize="0.12in"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="142dp"
+        android:backgroundTint="@color/bg_gradient_end"
+        android:text="Detect Face"
+        android:textColor="@color/white"
+        android:textSize="0.2in" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button"
+        android:layout_alignRight="@+id/button"
+        android:layout_below="@+id/button"
+        android:text="To view marks and grades"
+        android:textColor="@color/bg_gradient_end"
+        android:textSize="0.12in" />
+
+
+</RelativeLayout>
